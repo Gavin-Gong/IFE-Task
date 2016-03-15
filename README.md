@@ -1,7 +1,7 @@
 # IFE-Task
 
 
--[] [Task-01](httlp//:)
+- [X] [Task-01](httlp//:)
 * [Task-02](httlp//:)
 * [Task-03](httlp//:)
 * [Task-04](httlp//:)
@@ -14,7 +14,6 @@
 * [Task-11](httlp//:)
 * [Task-12](httlp//:) 
 
--[ ]gg
 
 
 
