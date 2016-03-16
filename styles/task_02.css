@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+	font-family:  Arial, Verdana, Microsoft Yahei, sans-serif;
+	background-color: #ddd;
+}
+
+.content {
+	width: 90%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.content h2{
+	margin: 5px auto;
+	font-size: 2.4em;
+}
+
+.content h3{
+	/* margin-top: 10px; */
+	margin: 5px auto;
+	font-size: 1.8em;
+	color: #ccc;
+}
+
+.content span {
+	font-size: 1.3em;
+	color: #ccc;
+}
+
+.content p {
+	font-size: 1.6em;
+}
+
+.content li {
+	font-size: 1.6em;
+}
+
+
+/* -------------header------------ */
+#header {
+	margin: 0 auto;
+	background: #474747 url(../images/baidu_logo.png) 40px center no-repeat;
+}
+
+#header ul {
+	overflow: hidden;
+	margin-top: 0;
+}
+
+#header li {
+	float: right;
+	margin-right: 30px;
+	color: #ddd;
+}
+
+#header a {
+	display: block;
+	text-decoration: none;
+	color: #ddd;
+	font-size: 1.6em;
+	line-height: 80px;
+
+}
+/* ------------/header--------- */
+
+
+/* ----------boxtwo----------- */
+#boxtwo ul {
+	list-style: none;
+}
+/* -------------/boxtwo--------- */
+
+
+/* -------------boxthree----------- */
+#boxthree ul {
+	list-style: none;
+}
+
+#boxthree figure {
+	display: inline-block;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+#boxthree figcaption {
+	font-size: .9em;
+	text-align: center;
+}
+/* -----------------/boxthree--------- */
+
+
+/* -------------boxtour-------------- */
+#boxfour table {
+	width: 100%;
+	padding: 0;
+	font-size: 1.2em;
+	text-align: left;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+
+#boxfour caption {
+	text-align: left;
+	font-size: 1.5em;
+}
+
+#boxfour th,
+#boxfour td {
+	border: 1px solid #ddd;
+	padding:5px;
+}
+#boxfour th {
+	background-color: #999;
+	
+}
+
+#boxfour td {
+	/* border: 1px solid #ddd; */
+}
+
+#boxfour tfoot {
+	background-color: #bbb;
+}
+/* ------------/boxfour----------- */
+
+/* ------------------boxfive-------------- */
+#boxfive {
+
+}
+
+#boxfive h2{
+	
+}

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"> 
-	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="renderer" content="webkit">
 	<!--Hello, I'm a comment.-->
-	<title>Task-01</title>
+	<title>Task-02</title>
 	<link rel="stylesheet" type="text/css" href="styles/task_02.css">
 </head>
 
 <body>
+
 <div id="header">
-	<h1>Website Headline Level 1</h1>
+	<!-- <h1>Website Headline Level 1</h1> -->
 	<ul>
 		<li><a href="#">Link one</a></li>
 		<li><a href="#">Link two</a></li>
@@ -19,22 +21,24 @@
 		<li><a href="#">Link four</a></li>
 	</ul>
 </div>
-<div class="content">
+
+<div id="wrapper">
+<div class="content" id="boxone">
 	<h2>Article Headline Level 1</h2>
 	<h3>Article Headline Level 2</h3>
 	<span>Author</span> <span>Post Time</span>
 	<p>long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long <a href="ife.baidu.com">This a Link</a> long long long long long long long long long long long long long long <a href="ife.baidu.com" target="_blank">Open in a New Window</a> long long long long long long long long long long ago</p>
-	<img src="garen.jpg" alt="Hidden Information">
+	<img src="images/epic_music.jpg" alt="Hidden Information"  width="160px" height="90">
 	<p>long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long <b>I'm Bold Text.</b> long long long long long long long long long long long long long</p>
 </div>
 
-<div class="content">
+<div class="content" id="boxtwo">
 	<h2>Article Headline Level 1</h2>
-	<h2>Article Headline Level 2</h2>
+	<h3>Article Headline Level 2</h3>
 	<span>Author</span> <span>Post Time</span>
 	<p>long long long long long long long long long long long long <br>long long long long long long long long long long long long long <b>I'm Bold Text</b> long long long long long long long long <a href="ife.baidu.com">I'm a link</a>long long long </p>
 
-	<img src="garen.jpg"> 
+	<img src="images/epic_music.jpg"  width="160px" height="90"> 
 	<ul>
 		<li>one</li>
 		<li>two</li>
@@ -42,23 +46,43 @@
 	</ul>
 </div>
 
-<div class="content">
+<div class="content" id="boxthree">
 	<h1>Pictrue</h1>
-	<p>Good Pics</p>
-	<img src="garen.jpg">
-	<p>Good Pics</p>
-	<img src="garen.jpg">
-	<p>Good Pics</p>
-	<img src="garen.jpg">
-	<p>Good Pics</p>
-	<img src="garen.jpg">
-	<p>Good Pics</p>
-	<img src="garen.jpg">
+	<ul>
+		<li><figure>
+			<figcaption>Good Pic</figcaption>
+			<img src="images/epic_music.jpg" width="160px" height="90">
+		</figure></li>
+	<li><figure>
+			<figcaption>Good Pic</figcaption>
+			<img src="images/epic_music.jpg" width="160px" height="90">
+		</figure></li>
+	<li><figure>
+			<figcaption>Good Pic</figcaption>
+			<img src="images/epic_music.jpg" width="160px" height="90">
+		</figure></li>
+	<li><figure>
+			<figcaption>Good Pic</figcaption>
+			<img src="images/epic_music.jpg" width="160px" height="90">
+		</figure></li>
+	<li><figure>
+			<figcaption>Good Pic</figcaption>
+			<img src="images/epic_music.jpg" width="160px" height="90">
+		</figure></li>
+	<li><figure>
+			<figcaption>Good Pic</figcaption>
+			<img src="images/epic_music.jpg" width="160px" height="90">
+		</figure></li>
+	<li><figure>
+			<figcaption>Good Pic</figcaption>
+			<img src="images/epic_music.jpg" width="160px" height="90">
+		</figure></li>
+	</ul>
 </div>
 
-<div class="content">
+<div class="content" id="boxfour">
 	<h2>Article Headline Level 1</h2>
-	<h2>Article Headline Level 2</h2>
+	<h3>Article Headline Level 2</h3>
 	<span>Author</span> <span>Post Time</span>
 	<ol>
 		<li>q</li>
@@ -66,44 +90,50 @@
 		<li>e</li>
 	</ol>
 
-	<p>This is a table</p>
-	<table border="1">
-		<tr>
-			<th>Table Head</th>
-			<th>Table Head</th>
-			<th>Table Head</th>
-		</tr>
-		<tr>
-			<td>Table Content</td>
-			<td>Table Content</td>
-			<td><a href="#">Link</a></td>
-		</tr>
-		<tr>
-			<td>Table Content</td>
-			<td>Table Content</td>
-			<td><a href="#">Link</a></td>
-		</tr>
-		<tr>
-			<td>Table Content</td>
-			<td>Table Content</td>
-			<td><a href="#">Link</a></td>
-		</tr>
-		<tr>
-			<td>Table Content</td>
-			<td>Table Content</td>
-			<td><a href="#">Link</a></td>
-		</tr>
-		<tr>
-			<td>Total</td>
-			<td colspan="2"> 1000</td>
-			
-		</tr>
+	
+	<table > 
+		<caption>I'm Headline</caption>
+	    <thead>
+			<tr>
+				<th>Table Head</th>
+				<th>Table Head</th>
+				<th>Table Head</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Table Content</td>
+				<td>Table Content</td>
+				<td><a href="#">Link</a></td>
+			</tr>
+			<tr>
+				<td>Table Content</td>
+				<td>Table Content</td>
+				<td><a href="#">Link</a></td>
+			</tr>
+			<tr>
+				<td>Table Content</td>
+				<td>Table Content</td>
+				<td><a href="#">Link</a></td>
+			</tr>
+			<tr>
+				<td>Table Content</td>
+				<td>Table Content</td>
+				<td><a href="#">Link</a></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Total</td>
+				<td colspan="2"> 1000</td>
+				
+			</tr>
+		</tfoot>
 	</table>
 </div>
 
-<div class="content">
+<div class="content" id="boxfive">
 	<h2>Sidebar Headline</h2>
-	<h2>Sidebar Headline 2</h2>
 	<form>
 		Email: <input type="text" value="Please input your email" name="userinfromation">
 		<p>input as requirement</p>
@@ -128,6 +158,7 @@
 		<textarea>Please input your personal description</textarea>
 		<input type="submit" value="Submit" >
 	</form>
+</div>
 </div>
 
 <div id="footer">All Rights Served©</div>
