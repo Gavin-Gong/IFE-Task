@@ -137,13 +137,13 @@
 	<form>
 		Email: <input type="text" value="Please input your email" name="userinfromation">
 		<p>input as requirement</p>
-		Password: <input type="text" value="Please input your password" name="userinformation">
-		Password: <input type="text" value="Please input your password again" name="userinformation">
+		Password: <input type="password" value="Please input your password" name="userinformation">
+		Password: <input type="password" value="Please input your password again" name="userinformation">
 		<p>Password must be 16 characters</p><br>
 
 		Gender:
-		<input type="radio" name="gender" value="Man">Man
-		<input type="radio" name="gender" value="Female">Female
+		<label><input type="radio" name="gender" value="Man">Man</label>
+		<label><input type="radio" name="gender" value="Female">Female</label>
 		City:
 		<select>
 			<option value="New York">New York</option>
@@ -151,9 +151,9 @@
 			<option value="Beijing">Beijing</option>
 		</select>
 		Hobby:
-		<input type="checkbox" name="hobby" value="Code">Code
-		<input type="checkbox" name="hobby" value="LOL">LOL
-		<input type="checkbox" name="hobby" value="Design">Design
+		<label><input type="checkbox" name="hobby" value="Code">Code</label>
+		<label><input type="checkbox" name="hobby" value="LOL">LOL</label>
+		<label><input type="checkbox" name="hobby" value="Design">Design</label>
 		Personal Description:
 		<textarea>Please input your personal description</textarea>
 		<input type="submit" value="Submit" >
