@@ -11,6 +11,7 @@ body {
 	margin: 20px auto;
 	padding: 20px;
 	background-color: #fff;
+	box-shadow: 0 5px 10px #bbb;
 }
 
 .content h2{
@@ -188,8 +189,15 @@ body {
 	margin-left: 405px;
 	margin-bottom: 20px;
 }
-
-
-
-
 /* -------------/boxfive-------------- */
+
+/* -----------footer--------- */
+#footer {
+	/* width: 100%; */
+	background-color: #000;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 30px;
+	color: #ddd;
+	font-size: 16px;
+}
