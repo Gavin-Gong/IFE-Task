@@ -135,28 +135,36 @@
 <div class="content" id="boxfive">
 	<h2>Sidebar Headline</h2>
 	<form>
-		Email: <input type="text" value="Please input your email" name="userinfromation">
+		<span>Email:</span>  
+		<input type="text"  class="move" id="one" value="Please input your email" name="userinfromation">
 		<p>input as requirement</p>
-		Password: <input type="password" value="Please input your password" name="userinformation">
-		Password: <input type="password" value="Please input your password again" name="userinformation">
-		<p>Password must be 16 characters</p><br>
 
-		Gender:
-		<label><input type="radio" name="gender" value="Man">Man</label>
-		<label><input type="radio" name="gender" value="Female">Female</label>
-		City:
-		<select>
+		
+		<label><span>Password:</span> <input type="password"  class="move" value="Please input your password" name="userinformation"></label>
+		<label><span>Password:</span> <input type="password"  class="move" value="Please input your password again" name="userinformation"></label>
+		<p>Password must be 16 characters</p>
+
+		
+		<span>Gender:</span>
+		<label class="inlineElement"><input type="radio"  class="move" name="gender" value="Man">Man</label>
+		<label class="inlineElement"><input type="radio" name="gender" value="Female">Female</label>
+
+		<label><span>City:</span>
+		<select class="move">
 			<option value="New York">New York</option>
 			<option value="London">London</option>
 			<option value="Beijing">Beijing</option>
-		</select>
-		Hobby:
-		<label><input type="checkbox" name="hobby" value="Code">Code</label>
-		<label><input type="checkbox" name="hobby" value="LOL">LOL</label>
-		<label><input type="checkbox" name="hobby" value="Design">Design</label>
-		Personal Description:
-		<textarea>Please input your personal description</textarea>
+		</select></label>
+		
+		<label class="inlineElement"><span>Hobby:</span><input type="checkbox" name="hobby" value="Code" class="move" >Code</label>
+		<label class="inlineElement"><input type="checkbox" name="hobby" value="LOL">LOL</label>
+		<label class="inlineElement"><input type="checkbox" name="hobby" value="Design">Design</label>
+
+		<label>
+		<span>Personal Description:</span>
+		<textarea class="move" >Please input your personal description</textarea>
 		<input type="submit" value="Submit" >
+		</label>
 	</form>
 </div>
 </div>

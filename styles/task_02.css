@@ -19,7 +19,6 @@ body {
 }
 
 .content h3{
-	/* margin-top: 10px; */
 	margin: 5px auto;
 	font-size: 1.8em;
 	color: #ccc;
@@ -53,7 +52,11 @@ body {
 #header li {
 	float: right;
 	margin-right: 30px;
-	color: #ddd;
+	color: #000;
+}
+
+#header li:last-child a {
+	color: #aaa;
 }
 
 #header a {
@@ -129,7 +132,7 @@ body {
 
 /* ------------------boxfive-------------- */
 #boxfive {
-
+	position: relative;
 }
 
 #boxfive h2{
@@ -143,5 +146,50 @@ body {
 }
 
 #boxfive p {
-font-size: .9em;
+	font-size: .9em;
+	color: #aaa;
 }
+
+#boxfive label {
+	display: block;
+}
+
+#boxfive .inlineElement {
+	display: inline-block;
+}
+
+#boxfive input[type="submit"] {
+	display: block;
+	text-align:center;
+	width: 80%;
+	color: #fff;
+	background-color: #f63397;
+	margin: 20px auto;
+	border: 0;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#boxfive span {
+	position: absolute;
+	right: 70%;
+	font-size: 1em;
+	color: #000;
+}
+
+#boxfive p {
+	margin-left: 405px;
+	margin-top: -15px;
+}
+
+
+
+#boxfive .move {
+	margin-left: 405px;
+	margin-bottom: 20px;
+}
+
+
+
+
+/* -------------/boxfive-------------- */
