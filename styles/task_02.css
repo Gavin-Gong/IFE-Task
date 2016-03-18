@@ -41,19 +41,26 @@ body {
 
 /* -------------header------------ */
 #header {
+	overflow: hidden;
 	margin: 0 auto;
-	background: #474747 url(../images/baidu_logo.png) 40px center no-repeat;
+	background: #474747 url(../images/baidu_logo.png) 4% center no-repeat;
 }
 
 #header ul {
-	overflow: hidden;
+	/* overflow: hidden; */
+	float: right;
 	margin-top: 0;
+	margin-right: 4%;
 }
 
 #header li {
-	float: right;
+	float: left;
 	margin-right: 30px;
 	color: #000;
+}
+
+#header li:last-child {
+	margin-right: 0;
 }
 
 #header li:last-child a {
