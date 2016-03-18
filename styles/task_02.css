@@ -134,6 +134,7 @@ body {
 /* ------------------boxfive-------------- */
 #boxfive {
 	position: relative;
+	/* overflow: hidden; */
 }
 
 #boxfive h2{
@@ -188,7 +189,8 @@ body {
 #boxfive .move {
 	margin-left: 405px;
 	margin-bottom: 20px;
-}
+	/* position: absolute; */
+	/* left: 20%; */
 /* -------------/boxfive-------------- */
 
 /* -----------footer--------- */
