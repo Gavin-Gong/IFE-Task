@@ -124,8 +124,7 @@ body {
 	padding:5px;
 }
 #boxfour th {
-	background-color: #999;
-	
+	background-color: #999;	
 }
 
 #boxfour td {
@@ -134,6 +133,7 @@ body {
 
 #boxfour tfoot {
 	background-color: #bbb;
+	font-weight: bold;
 }
 /* ------------/boxfour----------- */
 
@@ -169,14 +169,16 @@ body {
 
 #boxfive input[type="submit"] {
 	display: block;
+	font-size: 20px;
 	text-align:center;
 	width: 80%;
 	color: #fff;
-	background-color: #f63397;
+	background-color: #f44336;
 	margin: 20px auto;
 	border: 0;
-	border-radius: 10px;
+	border-radius: 22px;
 	padding: 10px;
+
 }
 
 #boxfive span {
@@ -191,13 +193,19 @@ body {
 	margin-top: -15px;
 }
 
-
-
 #boxfive .move {
 	margin-left: 405px;
 	margin-bottom: 20px;
 	/* position: absolute; */
 	/* left: 20%; */
+}
+
+#boxfive textarea {
+	width: 40%;
+	height: 100px;
+	font-family: sans-serif;
+}
+
 /* -------------/boxfive-------------- */
 
 /* -----------footer--------- */
