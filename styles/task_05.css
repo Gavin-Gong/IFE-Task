@@ -1,0 +1,232 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+	font-family:  Arial, Verdana, Microsoft Yahei, sans-serif;
+	background-color: #ddd;
+}
+
+.content {
+	width: 94%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 5px 10px #bbb;
+}
+
+.content h2{
+	margin: 5px auto;
+	font-size: 2.4em;
+}
+
+.content h3{
+	margin: 5px auto;
+	font-size: 1.8em;
+	color: #ccc;
+}
+
+.content span {
+	font-size: 1.3em;
+	color: #ccc;
+}
+
+.content p {
+	font-size: 1.6em;
+}
+
+.content li {
+	font-size: 1.6em;
+}
+
+
+/* -------------header------------ */
+#header {
+	overflow: hidden;
+	margin: 0 auto;
+	background: #474747 url(../images/baidu_logo.png) 4% center no-repeat;
+}
+
+#header ul {
+	/* overflow: hidden; */
+	float: right;
+	margin-top: 0;
+	margin-right: 4%;
+}
+
+#header li {
+	float: left;
+	margin-right: 30px;
+	color: #000;
+}
+
+#header li:last-child {
+	margin-right: 0;
+}
+
+#header li:last-child a {
+	color: #aaa;
+}
+
+#header a {
+	display: block;
+	text-decoration: none;
+	color: #ddd;
+	font-size: 1.6em;
+	line-height: 80px;
+
+}
+/* ------------/header--------- */
+#mainsection {
+	position: relative;
+}
+
+#wrapper {
+	margin-right: 350px;
+}
+
+/* ----------boxtwo----------- */
+#boxtwo ul {
+	list-style: none;
+}
+/* -------------/boxtwo--------- */
+
+
+/* -------------boxthree----------- */
+#boxthree ul {
+	list-style: none;
+}
+
+#boxthree figure {
+	display: inline-block;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+#boxthree figcaption {
+	font-size: .9em;
+	text-align: center;
+}
+/* -----------------/boxthree--------- */
+
+
+/* -------------boxtour-------------- */
+#boxfour table {
+	width: 100%;
+	padding: 0;
+	font-size: 1.2em;
+	text-align: left;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+
+#boxfour caption {
+	text-align: left;
+	font-size: 1.5em;
+}
+
+#boxfour th,
+#boxfour td {
+	border: 1px solid #ddd;
+	padding:5px;
+}
+#boxfour th {
+	background-color: #999;	
+}
+
+#boxfour td {
+	/* border: 1px solid #ddd; */
+}
+
+#boxfour tfoot {
+	background-color: #bbb;
+	font-weight: bold;
+}
+/* ------------/boxfour----------- */
+
+
+/* ------------------boxfive-------------- */
+#forminfo {
+	position: absolute;
+	top: 0;
+	right: 0;
+	/* float: right; */
+	margin-top: 0;
+	margin-left: 20px;
+	width: 300px;
+	overflow: hidden;
+}
+
+#forminfo h2{
+	padding-left: 10px;
+	font-size: 2.2em;
+	border-left: 3px solid #ccc;
+}
+
+#forminfo form {
+	font-size: 1.7em;
+}
+
+#forminfo p {
+	font-size: .9em;
+	color: #aaa;
+}
+
+#forminfo label {
+	display: block;
+}
+
+#forminfo .inlineElement {
+	display: inline-block;
+}
+
+#forminfo input[type="submit"] {
+	display: block;
+	font-size: 20px;
+	text-align:center;
+	width: 80%;
+	color: #fff;
+	background-color: #f44336;
+	margin: 20px auto;
+	border: 0;
+	border-radius: 22px;
+	padding: 10px;
+
+}
+
+#forminfo span {
+	position: absolute;
+	right: 70%;
+	font-size: 1em;
+	color: #000;
+}
+
+#forminfo p {
+	margin-left: 100px;
+	margin-top: -15px;
+}
+
+#forminfo .move {
+	margin-left: 100px;
+	margin-bottom: 20px;
+	/* position: absolute; */
+	/* left: 20%; */
+}
+
+#forminfo textarea {
+	width: 40%;
+	height: 100px;
+	font-family: sans-serif;
+}
+
+/* -------------/boxfive-------------- */
+
+/* -----------footer--------- */
+#footer {
+	/* width: 100%; */
+	background-color: #000;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 30px;
+	color: #ddd;
+	font-size: 16px;
+}
