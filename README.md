@@ -2,10 +2,10 @@
 
 
 - [X] [Task-01](httlp//:)
-- [ ] [Task-02](httlp//:)
+- [x] [Task-02](httlp//:)
 - [ ] [Task-03](httlp//:)
-- [ ] [Task-04](httlp//:)
-- [ ] [Task-05](httlp//:)
+- [x] [Task-04](httlp//:)
+- [X] [Task-05](httlp//:)
 - [ ] [Task-06](httlp//:)
 - [ ] [Task-07](httlp//:)
 - [ ] [Task-08](httlp//:)
