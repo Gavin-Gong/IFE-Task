@@ -1,0 +1,31 @@
+#box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	overflow: hidden;
+	/* margin: 0 auto; */
+	margin-left: -200px;
+	margin-top: -100px;
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+}
+
+#top-left-circle,
+#bottom-right-circle {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background-color: #fc0;
+}
+
+#top-left-circle {
+	top: -50px;
+	left: -50px;
+}
+
+#bottom-right-circle {
+	bottom: -50px;
+	right: -50px;
+}
