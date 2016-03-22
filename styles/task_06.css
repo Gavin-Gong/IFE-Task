@@ -1,0 +1,244 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 华文细黑, sans-serif;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#topbar {
+	border-bottom: 3px solid #999;
+}
+
+#box {
+	display: inline-block;
+	padding: 5px 10px;
+	width: 100px;
+	height: 50px;
+	background-color: #f44336;
+	color: #fff;
+
+}
+
+#box>span {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+#topbar>span {
+	color:  #f44336;
+	display: inline-block;
+	float: right;
+	margin-top: 40px;
+}
+
+/* -------------------end #topbar--------------- */
+
+
+#content {
+
+}
+
+#banner {
+	margin-top: 20px;
+}
+
+.clearfix:after {
+	content:".";
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+
+#ban-img {
+	position: relative;
+	float: left;
+	width: 641px;
+	height: 301px;
+	background: url(../images/task_06_1.png) no-repeat;
+}
+
+#ban-img:before {
+	content: "";
+	position: absolute;
+	width: 150px;
+	height: 301px;
+	background: #f44336;
+	opacity: .5;
+}
+
+#ban-img:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	width: 150px;
+	height: 301px;
+	background: #4caf50;
+	opacity: .5;
+}
+
+#banner h2 {
+	/* text-transform: uppercase; */
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+
+#banner h1 {
+	font-size: 105px;
+	line-height: 100px;
+	color: #4caf50;
+
+}
+
+#ban-right {
+	display: inline-block;
+	margin-left: 20px;
+	border-top: 3px solid #f44336;
+}
+
+#ban-right p {
+	font-size: 16px;
+	max-width: 680px;
+}
+
+#text-block {
+	/* position: ; */
+	overflow: hidden;
+}
+
+#text-block>span {
+	font-size: 60px;
+	color: #f44336;
+	float: left;
+}
+
+#text-block div {
+	/* display: inline-block; */
+	/* padding-left: 10px; */
+	margin-left: 100px;
+
+}
+
+#text-block div:nth-child(2) {
+	color: #f44336;
+	margin-top: 21px;
+}
+/* --------------end banner-------------- */
+
+#introduction {
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+#introduction h3 {
+	text-decoration: underline;
+}
+
+#introduction>div {
+	display: inline-block;
+	float: left;
+	width: 25%;
+	color: #ccc;
+
+}
+
+#text-column-1 h3 {
+	color: #ff9800;
+}
+
+#text-column-2 h3 {
+	color: #f44336;
+}
+
+#text-column-3 h3 {
+	color: #4caf50;
+}
+
+#text-column-3 span {
+	color: #f44336;
+}
+/* -----------------------end introduction----------- */
+
+#article {
+
+}
+
+#left-article {
+	display: inline-block;
+	width: 40%;
+}
+
+#left-article>h2 {
+	text-transform: uppercase;
+	color: blue;
+}
+
+#first-word {
+	font-size: 50px;
+	font-style: italic;
+	color: yellow;
+}
+
+#text {
+	border-top: 3px solid #ccc;
+}
+
+#text::first-letter {
+	float: left;
+	padding: 5px;
+	font-size: 60px;
+	line-height: 50px;
+	color: yellow;
+}
+
+#text img {
+	float: right;
+}
+
+#right-article {
+	float: right;
+	display: inline-block;
+	width: 50%;
+}
+
+#imgbox {
+	width: 458px;
+	/* height: 257px; */
+	background: url(../images/task_06_2.png) no-repeat;
+	border-top: 1px solid transparent;
+}
+
+#imgbox>div {
+	width: 100%;
+	height: 80px;
+	margin-top: 176px;
+	color: #4caf50;
+	background-color: #000;
+	opacity: 0.5;
+}
+
+#imgbox-title {
+	display: inline-block;
+	padding-left: 10px;
+	line-height: 50px;
+	font-size: 27px;
+	color: #fff;
+	border-left: 3px solid #4caf50;
+}
+
+
+
+#cite{
+	width: 458px;
+	background-color: #e0e0e0;
+}
