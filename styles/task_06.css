@@ -1,6 +1,7 @@
 body {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
+	width: 90%;
 	font-family: 华文细黑, sans-serif;
 }
 
@@ -43,10 +44,6 @@ p {
 
 /* -------------------end #topbar--------------- */
 
-
-#content {
-
-}
 
 #banner {
 	margin-top: 20px;
@@ -108,7 +105,7 @@ p {
 
 #ban-right p {
 	font-size: 16px;
-	max-width: 680px;
+	max-width: 480px;
 }
 
 #text-block {
@@ -170,27 +167,29 @@ p {
 /* -----------------------end introduction----------- */
 
 #article {
-
+	margin-top: 60px;
 }
 
 #left-article {
 	display: inline-block;
-	width: 40%;
+	width: 47%;
 }
 
 #left-article>h2 {
+	font-size: 40px;
 	text-transform: uppercase;
-	color: blue;
+	color: #ccc;
 }
 
 #first-word {
 	font-size: 50px;
 	font-style: italic;
-	color: yellow;
+	color: #ffc107;
 }
 
 #text {
 	border-top: 3px solid #ccc;
+	padding-top: 10px;
 }
 
 #text::first-letter {
@@ -198,11 +197,12 @@ p {
 	padding: 5px;
 	font-size: 60px;
 	line-height: 50px;
-	color: yellow;
+	color: #ffc107;
 }
 
 #text img {
 	float: right;
+	padding
 }
 
 #right-article {
@@ -247,14 +247,17 @@ p {
 
 
 #cite{
+	margin-top: 30px;
 	width: 458px;
 	background-color: #e0e0e0;
 }
 #cite ul {
+	display: inline-block;
 	list-style: none;
 }
 #cite li {
 	padding-left: 6px;
+	margin-top:10px;
 	position: relative;
 }
 
@@ -344,5 +347,19 @@ p {
 	bottom: -77px;
 	font-size: 100px;
 	color: #f44336;
+}
+
+
+#bottombar {
+	border-top: 2px solid #999;
+	margin-top: 20px;
+}
+
+#bottombar span {
+	display: inline-block;
+	float: right;
+	color: #f44336;
+
+
 }
 
