@@ -1,0 +1,11 @@
+body {
+	font-size: 16px;
+	font-family: 华文细黑, sans-serif;
+}
+
+div,
+span,
+body {
+	margin: 0;
+	padding: 0;
+}
