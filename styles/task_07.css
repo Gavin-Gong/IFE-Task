@@ -1,4 +1,5 @@
 body {
+	width: 100%;
 	font-size: 16px;
 	font-family: 华文细黑, sans-serif;
 }
@@ -9,3 +10,187 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.clearfix:after {
+	content:"";
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+}
+
+button {
+	background: #fff;
+	font-family: 华文细黑;
+	border: none;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+
+
+#nav {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 85%;
+	height: 83px;
+}
+
+#nav h2 {
+	display: inline-block;
+	padding-left: 36px;
+	background: url(../images/task_07_logos.png) 52px -156px;
+}
+
+#nav ul {
+	float: right;
+	margin: 0;
+}
+
+#nav li {
+	float: left;
+	margin-left: 20px;
+	width: 68px;
+	text-align: center;
+}
+
+
+#nav a {
+	line-height: 80px;
+}
+
+#nav li:hover {
+	color: #f44336;
+	border-bottom: 3px solid #f44336;
+}
+
+#nav .current-style {
+	color: #f44336;
+}
+
+#nav .loginbtn {
+	color: #f44336;
+	background: url(../images/task_07_logos.png);
+}
+/* ---------------------end nav-------------- */
+
+#experience {
+	position: relative;
+	color: #fff;
+	padding: 180px 15%;
+	background: url(../images/task_07_01.png);
+	background-size: cover;
+}
+
+#experience:after {
+	  content: "";
+	  display: block;
+	  background: #000;
+	  position: absolute;
+	  top:0;
+	  left: 0;
+	  right:0;
+	  bottom: 0;
+	  opacity: .1
+}
+
+#experience h1 {
+	font-size: 50px;
+}
+
+#experience p {
+	font-size: 20px;
+	margin-top: -33px;
+    margin-bottom: 74px;
+    width: 282px;
+}
+
+#experience button {
+	padding: 15px 75px;
+	font-size: 30px;
+	color: #fff;
+	background-color: #f44336;
+}
+/* -------------------end experience---------------- */
+
+#features {
+
+}
+
+#features ul {
+	text-align: center;
+}
+
+#features li {
+	float: left;
+	width: 25%;
+	height: 300px;
+	/* box-sizing: border-box; */
+}
+
+#features div {
+	padding: 10px 65px;
+	margin-top: 200px;
+	border-left: 3px solid #ccc;
+}
+
+#features .clearborder {
+	border: none;
+}
+/* --------------------end features----------------- */
+
+#no-know {
+	overflow: hidden;
+	background: #ccc;
+	color: #999;
+}
+
+#no-know h2 {
+	text-align: center;
+	margin-top: 200px;
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+/* -------------------end no-know-------------- */
+
+
+#city-information {
+	padding-top: 20px;
+	padding-bottom: 190px;
+	background: url(../images/task_07_02.png);
+	background-size: cover;
+}
+
+#city-information h2 {
+	color: #fff;
+	text-align: center;
+}
+
+#city-information div {
+	margin: 0 auto;
+	width: 50px;
+	height: 2px;
+	background-color: #fff;
+}
+
+#city-information p {
+	color: #fff;
+	text-align: center;
+}
+
+#city-information select {
+	font-family: 华文细黑;
+	color: #ccc;
+}
+
+/* #city-information option:hover {
+	background-color: #f44336;
+}
+ */
