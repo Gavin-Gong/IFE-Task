@@ -58,7 +58,20 @@ ul {
 
 #nav h2 {
 	display: inline-block;
-	padding-left: 36px;
+	float: left;
+	padding-left: 10px;
+
+}
+
+#nav h2:before {
+	display: inline-block;
+	content: "";
+	/* display: block; */
+	width: 31px;
+	height: 31px;
+	position: relative;
+	top: 9px;
+	left: -4px;
 	background: url(../images/task_07_logos.png) 52px -156px;
 }
 
@@ -72,6 +85,14 @@ ul {
 	margin-left: 20px;
 	width: 68px;
 	text-align: center;
+}
+
+.current-style {
+	border-bottom: 3px solid #f44336;
+}
+
+.current-style a {
+	color: #f44336;
 }
 
 
@@ -90,7 +111,21 @@ ul {
 
 #nav .loginbtn {
 	color: #f44336;
-	background: url(../images/task_07_logos.png);
+}
+
+#nav .loginbtn:before {
+	content: "";
+	display: inline-block;
+	/* position: relative; */
+	/* top: 1px; */
+	/* right: 1px; */
+	width: 14px;
+	height: 17px;
+	background: url(../images/task_07_login.png) no-repeat;
+}
+
+#nav .loginbtn a {
+	color: #f44336;
 }
 /* ---------------------end nav-------------- */
 
@@ -139,6 +174,7 @@ ul {
 
 #features ul {
 	text-align: center;
+	overflow: hidden;
 }
 
 #features li {
@@ -148,10 +184,34 @@ ul {
 	/* box-sizing: border-box; */
 }
 
+#features li:before {
+	content: "";
+	position: relative;
+	top: 75px;
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	background: #f44336;
+}
+
 #features div {
 	padding: 10px 65px;
-	margin-top: 200px;
+	margin-top: 110px;
 	border-left: 3px solid #ccc;
+}
+
+#features li:nth-child(1):before {
+	background: url(../images/task_07_logos.png) -14px -54px no-repeat;
+}
+
+#features li:nth-child(2):before {
+	background: url(../images/task_07_logos.png) -59px -54px no-repeat;
+}
+#features li:nth-child(3):before {
+	background: url(../images/task_07_logos.png) -103px -54px no-repeat;
+}
+#features li:nth-child(4):before {
+	background: url(../images/task_07_logos.png) -157px -54px no-repeat;
 }
 
 #features .clearborder {
@@ -171,6 +231,18 @@ ul {
 	margin-bottom: 50px;
 	font-size: 50px;
 }
+
+#no-know h2:before {
+	content: "";
+	display: block;
+	position: relative;
+	left: 50%;
+	top: -110px;
+	width: 92px;
+	margin-left: -46px;
+	height: 92px;
+	background: url(../images/task_07_logos.png) -212px -5px no-repeat ;
+}
 /* -------------------end no-know-------------- */
 
 
@@ -187,7 +259,7 @@ ul {
 }
 
 #city-information div {
-	margin: 0 auto;
+	margin: -10px auto 20px; 
 	width: 50px;
 	height: 2px;
 	background-color: #fff;
@@ -210,31 +282,42 @@ ul {
  /* --------end city-information--------- */
 
  #activity {
+ 	/* position: relative; */
  	padding: 20px 50px;
  	background-color: #ddd;
  	text-align: center;
  }
 
  #imglist {
- 	/* margin: 60px auto; */
+ 	/* position: absolute; */
+ 	display: inline-block;
+ 	margin: auto;
+ 	padding-top: 80px;
+ 	padding-bottom: 40px;
+ 	overflow: hidden;
+ 	top: 0px;
+ 	left: 0px;
+ 	margin-left: 0px;
+ 	margin-top: 0px;
  	/* width: 85%; */
  }
 
  #activity li {
- 	/* float: left; */
+ 	float: left;
  	display: inline-block;
- 	width: 210px;
+ 	width: 215px;
  	height: 435px;
  	background-size: cover;
  	background-color: #f44336;
  }
 
  #imglist li:nth-child(1) {
- 	background: url(../images/task_07_imglist.png) -33px 0 no-repeat;
+ 	background: url(../images/task_07_imglist.png) -29px 0 no-repeat;
  }
 
  #imglist li:nth-child(2) {
  	margin-left: 30px;
+ 	margin-top: 55px;
  	background: url(../images/task_07_imglist.png) -267px 0 no-repeat;
  }
 
@@ -245,11 +328,11 @@ ul {
 
  #imglist li:nth-child(4) {
  	margin-left: 30px;
-	background: url(../images/task_07_imglist.png) -763px 0 no-repeat;
+	background: url(../images/task_07_imglist.png) -761px 0 no-repeat;
  }
 
  #imglist h3 {
- 	/* margin-top: 370px; */
+ 	margin-top: 370px;
  	font-size: 15px;
  }
 
@@ -260,9 +343,10 @@ ul {
  }
 
  #imglist li:nth-child(2) h3 {
- 	/* margin-top: 0px;
+ 	margin-top: -40px;
+ 	margin-bottom: 10px;
  	font-size: 25px;
- 	letter-spacing: 22px; */
+ 	letter-spacing: 22px;
  }
  /* ----------------end actiovity-------------- */
 
@@ -433,6 +517,7 @@ ul {
 	width: 85%;
 }
 
+
 #volunteer-appeal {
 	margin: 40px auto;
 	text-align: center;
@@ -457,6 +542,30 @@ ul {
 	float: left;
 	width: 33.3%;
 }
+
+#volunteer-about h3 {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+#volunteer-about h3:first-child {
+	margin-top: 0;
+}
+
+#volunteer-about p {
+	font-size: 14px;
+	color: #999;
+}
+
+#volunteer-about button {
+	float: right;
+	padding: 0;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #999;
+	background: url(../images/task_07_arrow.png) left center no-repeat;
+}
+
+#vol
 
 #volunteer-info {
 	display: inline-block;
@@ -483,6 +592,25 @@ ul {
 }
 
 #contact-us input {
-
+	padding: 5px 40px;
 }
 
+/* -----------------end contact-us----------------- */
+
+#footer {
+	padding: 20px;
+	background-color: #000;
+	color: #ccc;
+}
+
+#footer span {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+#footer a {
+	display: inline-block;
+	color: #ccc;
+	float: right;
+	margin-right: 30px;
+}
