@@ -248,9 +248,10 @@ ul {
 
 #city-information {
 	padding-top: 20px;
-	/* padding-bottom: 190px; */
+	padding-bottom: 190px;
 	background: url(../images/task_07_02.png);
 	background-size: cover;
+	text-align: center;
 }
 
 #city-information h2 {
@@ -258,7 +259,7 @@ ul {
 	text-align: center;
 }
 
-#city-information div {
+#city-information > div:nth-child(2) {
 	margin: -10px auto 20px; 
 	width: 50px;
 	height: 2px;
@@ -270,15 +271,137 @@ ul {
 	text-align: center;
 }
 
-#city-information select {
-	font-family: 华文细黑;
-	color: #ccc;
+
+#city-form {
+	/* overflow: hidden; */
+	display: inline-block;
+	margin-top: 30px;
 }
 
-/* #city-information option:hover {
-	background-color: #f44336;
+#city-form .select {
+	position: relative;
+	display: block;
+	float: left;
+	margin-right: 30px;
+	width: 250px;
+	height: 36px;
+	background-color: #fff;
 }
- */
+
+#city-form .option {
+	text-align: left;
+	background-color: #ccc;
+	margin-top: -3px;
+}
+
+#city-form .option li {
+	padding: 5px 35px;
+}
+
+#city-form .option li:hover {
+	color: #fff;
+	background: #f44336 url(../images/task_07_arrow2.png) 10px center no-repeat;
+}
+
+
+#city-form button {
+	width: 250px;
+	font-size: 16px;
+	padding: 7px;
+	background-color: #f44336;
+	color: #fff;
+}
+
+#city-form .option {
+	display: none;
+	color: #666;
+
+}
+
+#country:before {
+	content: "中国";
+	display: inline-block;
+    line-height: 40px;
+    margin-left: -198px;
+    color: #999;
+}
+
+#country:after {
+	content: "";
+	position: absolute;
+	left: 227px;
+	top: 9px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: #f44336 url(../images/task_07_arrow2.png) center center no-repeat;
+}
+
+#province:before {
+	content: "省份";
+	display: inline-block;
+    line-height: 40px;
+    margin-left: -198px;
+    color: #999;
+}
+
+#province:after {
+	content: "";
+	position: absolute;
+	left: 227px;
+	top: 9px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: #f44336 url(../images/task_07_arrow2.png) center center no-repeat;
+}
+
+#city:before {
+	content: "城市";
+	display: inline-block;
+    line-height: 40px;
+    margin-left: -198px;
+    color: #999;
+}
+
+#city:after {
+	content: "";
+	position: absolute;
+	left: 227px;
+	top: 9px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: #f44336 url(../images/task_07_arrow2.png) center center no-repeat;
+}
+
+#country:focus {
+	outline: 1px solid #f44336;
+}
+
+#country:focus > .option {
+	display: block;
+	outline: 1px solid #f44336;
+}
+#province:focus {
+	outline: 1px solid #f44336;
+}
+
+#province:focus > .option {
+	display: block;
+	outline: 1px solid #f44336;
+}
+#city:focus {
+	outline: 1px solid #f44336;
+}
+
+#city:focus > .option {
+	display: block;
+	outline: 1px solid #f44336;
+}
+
+
+
  /* --------end city-information--------- */
 
  #activity {
@@ -580,13 +703,38 @@ ul {
 	background: url(../images/task_07_arrow.png) left center no-repeat;
 }
 
-#vol
 
 #volunteer-info {
 	display: inline-block;
 	box-sizing: border-box;
-	padding: 40px 20px;
+	padding: 40px 75px;
 	width: 66.6%;
+}
+
+#volunteer-info input {
+	width: 44%;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-left: 2%;
+	margin-top: 20px;
+	background-color: #eee;
+	color: #666;
+	border: none;
+}
+
+#volunteer-info textarea {
+	border: none;
+	width: 91%;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 2%;
+	background-color: #eee;
+	color: #666;
+	text-indent: 8px;
+}
+
+#volunteer-info input[type="submit"] {
+	width: 91%;
 }
 
 /* ---------------end volunteer------------- */
@@ -615,13 +763,12 @@ ul {
 	font-size: 16px;
 	
 }
+
 #contact-us input[type="text"] {
 	padding: 10px;
 	padding-left: 10px;
 	padding-right: 200px;
 	color: #ccc;
-	
-
 }
 
 #contact-us input[type="submit"] {
