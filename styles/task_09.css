@@ -1,0 +1,211 @@
+/*global styles*/
+body {
+	width: 100%;
+	font-family: "华文细黑", san-serif;
+	/*font-size: 16px;*/
+}
+
+
+/*Basic CSS Reset*/
+div,
+span,
+body,
+html,
+ul,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+span {
+	display: inline-block;
+}
+
+
+/*Clear Float*/
+.ClearFix:after {
+	content: "";
+	display: block;
+	visibility: none;
+	clear: both;
+
+}
+
+
+
+#topbar {
+	overflow: hidden;
+	padding: 15px 10px 7px;
+	background-color: #228AC1;
+}
+
+#topbar span:first-child {
+	width: 36px;
+	height: 36px;
+	margin-left: 30px;
+	background: url(../images/task_09_logo.png) no-repeat;
+}
+
+#topbar form {
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin-right: 35px;
+}
+#topbar input {
+	/*float: right;*/
+	width: 290px;
+	height: 26px;
+	padding-left: 10px;
+	border-radius: 13px;
+	border: none;
+}
+
+#topbar i{
+	/*float: right;*/
+	position: absolute;
+	top: 5px;
+	left: 15px;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../images/task_09_search.png);
+}
+
+#topbar span:nth-child(2) {
+	float: right;
+	margin-right: 30px;
+	color: #fff;
+}
+
+#topbar span:nth-child(2):before {
+	content: "";
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	left: -5px;
+	width: 15px;
+	height: 16px;
+	background: url(../images/task_09_user.png);
+}
+/*------------------end #topbar-------------*/
+
+
+#content {
+	color: #999;
+	background-color: #eee;
+}
+
+#user-info {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 20%;
+	height: 1000px;
+	padding: 10px 20px;
+	background-color: #2B2E3D;
+}
+
+#user-name {
+	margin-top: 20px;
+	text-align: center;
+	color: #ccc;
+}
+
+#user-name:before {
+	content: "";
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+	vertical-align: middle;
+	background: #f43364;
+	border-radius: 50%;
+}
+
+#user-social {
+	width: 100%;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+#user-social span {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#user-social span:last-child {
+	border-left: 1px solid #ccc;
+}
+
+#user-info-list {
+	margin-top: 25px;
+	list-style: none;
+}
+
+#user-info-list>li {
+	padding: 15px 0;
+}
+
+#user-info-list>li:before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 11px;
+	margin-right: 7px;
+	background: url(../images/task_09_star_dark.png);
+}
+
+#user-sub-list {
+	margin-left: 20px;
+}
+
+#user-sub-list>li{
+	padding: 8px 0;
+}
+
+#user-sub-list>li:before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 11px;
+	margin-right: 25px;
+	background: url(../images/task_09_sidebar_arrow.png);
+}
+
+#user-sub-list>li:after {
+	content: "";
+	display: inline-block;
+	position: relative;
+	left: -81px;
+	width: 12px;
+	height: 11px;
+	background: url(../images/task_09_folder_light.png);
+}
+
+#user-inner-list {
+	margin-left: 36px;
+}
+
+#user-inner-list>li:before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 11px;
+	margin-right: 10px;
+	background: url(../images/task_09_document_dark.png);
+}
+
+
+
+
+#show-content {
+	float: right;
+	width: 80%;
+	box-sizing: border-box;
+}
