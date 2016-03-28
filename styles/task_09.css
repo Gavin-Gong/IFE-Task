@@ -352,7 +352,7 @@ a {
 	background: #fff url(../images/task_09_price_leftarrow.png) center center no-repeat;
 }
 #price-fluctuation a:nth-child(3) {
-	margin-left: 10px;
+	margin-left: 6px;
 	background: #fff url(../images/task_09_prince_rightarrow.png) center center no-repeat;
 }
 
