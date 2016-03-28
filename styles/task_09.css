@@ -369,7 +369,7 @@ a {
 	padding:10px 20px;
 	color: #000;
 	text-align: center;
-	background-color: #ddd;
+	background-color: #fff;
 	border-top: 3px solid transparent;
 	margin-left: 10px;
 	/*border-right: 10px solid #eee;*/
@@ -407,8 +407,84 @@ a {
 }
 
 #exchange-total {
-	width: 85%
+	width: 85%;
 	margin: 20px auto;
 }
 
-#exchange-total
+#exchange-total h4 {
+	margin-bottom: 5px;
+	font-size: 16px;
+	color: #333;
+}
+
+#exchange-total ul {
+	overflow: hidden;
+}
+
+#exchange-total li {
+	float: left;
+	width: 180px;
+	margin-left: 20px;
+	padding: 15px;
+	background-color: #fff;
+	border-left: 4px solid #f43364;
+}
+
+#exchange-total li:first-child {
+	margin-left: 0;
+	border-left: 4px solid #42B19E;
+}
+
+#exchange-total li:first-child .color-box {
+	background-color: #42B19E;
+}
+
+#exchange-total li:nth-child(2) {
+	border-left: 4px solid #228ac1;
+}
+#exchange-total li:nth-child(2) .color-box {
+	background-color: #228ac1;
+}
+
+#exchange-total li:nth-child(3) {
+	border-left: 4px solid #CF4B36;
+}
+#exchange-total li:nth-child(3) .color-box {
+	background-color: #CF4B36;
+}
+
+#exchange-total li:nth-child(4) {
+	border-left: 4px solid #E1CD46;
+}
+#exchange-total li:nth-child(4) .color-box {
+	background-color: #E1CD46;
+}
+
+#exchange-total .text-box span{
+	display: block;
+}
+#exchange-total .color-box{
+	float: right;
+	width: 80px;
+	height: 60px;
+	background-color: #f43364;
+
+	/*margin-right: 20px;*/
+}
+#exchange-total .text-box{
+	float: left;
+	margin-top: 10px;
+}
+
+#exchange-total .exchange-number {
+	color: #000;
+	font-size: 14px;
+}
+
+#exchange-total .exchange-number + span {
+	font-size: 13px;
+}
+
+
+
+
