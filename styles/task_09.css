@@ -486,5 +486,61 @@ a {
 }
 
 
+#project {
+	width: 85%;
+	margin: 0 auto;
+}
 
+.box-head {
+	width: 100%;
+	padding: 5px 20px;
+	background-color: #eee;
+	color: #999;
+	border-radius: 8px;
+}
 
+#project-table {
+	width: 60%;
+	background: #fff;
+	/*padding: 20px;*/
+	border: 1px solid #999;
+	border-radius: 8px;
+}
+#table-body {
+	padding: 10px 20px;
+	color: #333;
+}
+#table-body>ul {
+	overflow: hidden;
+}
+
+#table-body li {
+	float: left;
+	margin-left: 5px;
+	background: #eee;
+	/*border: 1px solid #999;*/
+	border-radius: 2px;
+	padding: 5px;
+	font-size: 14px
+}
+
+#table-outer {
+	padding: 30px;
+	border: 1px solid #999;
+}
+
+#table-outer>table{
+	border-collapse: collapse;
+	/*border: 1px;*/
+	text-align: center;
+}
+
+#table-outer td,
+#table-outer tr {
+	border: 1px solid #999;
+}
+
+#table-outer td {
+	width: 87px;
+	font-size: 15px;
+}
