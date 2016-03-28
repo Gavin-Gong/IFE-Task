@@ -2,7 +2,6 @@
 body {
 	width: 100%;
 	font-family: "华文细黑", san-serif;
-	/*font-size: 16px;*/
 }
 
 
@@ -25,6 +24,11 @@ span {
 	display: inline-block;
 }
 
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
 
 /*Clear Float*/
 .ClearFix:after {
@@ -35,6 +39,62 @@ span {
 
 }
 
+/*Dropdown List Class*/
+.dropdown-list {
+  width: 200px;
+  /*float: left;*/
+
+}
+
+.dropdown-list span {
+	display: block;
+	/*float: left;*/
+}
+
+.list-hint {
+  /*display: inline-block;*/
+  /*float: left;*/
+  width: 200px;
+  padding-left: 8px;
+  border: 1px solid #999;
+  color: #000;
+  cursor: pointer;
+}
+
+.list-hint:after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #f43366;
+  float: right;
+  margin: 5px 10px;
+  vertical-align: middle;
+}
+
+.list-hint:focus {
+  outline:none;
+}
+.list-hint:focus+ul {
+  display:block;
+  background: #ddd;
+}
+
+.dropdown-list ul {
+  list-style: none;
+  width: 200px;
+  display: none;
+  color: #000;
+}
+
+.dropdown-list li {
+  padding-left: 20px;
+}
+
+.dropdown-list li:hover {
+  background: #f43366;
+}
+/*End Dropdown List Class*/
 
 
 #topbar {
@@ -65,7 +125,8 @@ span {
 	border: none;
 }
 
-#topbar i{
+
+#topbar i {
 	/*float: right;*/
 	position: absolute;
 	top: 5px;
@@ -74,6 +135,10 @@ span {
 	width: 17px;
 	height: 17px;
 	background: url(../images/task_09_search.png);
+}
+
+#topbar input:focus+i {
+	background: none;
 }
 
 #topbar span:nth-child(2) {
@@ -105,7 +170,6 @@ span {
 	box-sizing: border-box;
 	width: 20%;
 	height: 1000px;
-	padding: 10px 20px;
 	background-color: #2B2E3D;
 }
 
@@ -149,7 +213,7 @@ span {
 }
 
 #user-info-list>li {
-	padding: 15px 0;
+	padding: 15px 40px;
 }
 
 #user-info-list>li:before {
@@ -166,6 +230,7 @@ span {
 }
 
 #user-sub-list>li{
+	position: relative;
 	padding: 8px 0;
 }
 
@@ -181,8 +246,9 @@ span {
 #user-sub-list>li:after {
 	content: "";
 	display: inline-block;
-	position: relative;
-	left: -81px;
+	position: absolute;
+	top:12px;
+	left: 20px;
 	width: 12px;
 	height: 11px;
 	background: url(../images/task_09_folder_light.png);
@@ -201,11 +267,56 @@ span {
 	background: url(../images/task_09_document_dark.png);
 }
 
+#user-info-list ul {
+	display: none;
+}
+#user-info-list li:hover>ul {
+	display: block;
+}
 
+#user-info-list>li:hover {
+	background: #383e4e ;
+
+}
+/*End sidebar*/
 
 
 #show-content {
 	float: right;
 	width: 80%;
 	box-sizing: border-box;
+}
+
+#file-path {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #fff;
+}
+
+#file-path span {
+	padding-left: 10px;
+}
+
+#file-path span:first-child {
+	margin-left: 30px;
+}
+
+#query-form {
+	margin: 20px auto;
+	padding: 10px 20px;
+	width: 85%;
+	background-color: #fff;
+}
+
+#query-option {
+	height: 80px;
+	width: 80px;
+}
+#query-option .list-hint {
+	width: 80px;
+}
+
+#query-person  {
+	float: left;
+	width: 200px;
 }

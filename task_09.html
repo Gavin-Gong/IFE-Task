@@ -8,10 +8,10 @@
 <body>
 	<div id="topbar">
 		<span></span>
-		<span>登录</span>
+		<span><a href="#">登录</a></span>
 		<form>
-			<i></i>
 			<input type="text" name="search">
+			<i></i>
 		</form>
 		
 	</div>
@@ -46,12 +46,13 @@
 		</div>
 		<div id="show-content">
 			<div id="file-path">
-				<span>c站</span>/<span>个人报表</span>/<span>Doc 1</span>
+				<span>c站</span>&nbsp&nbsp/&nbsp&nbsp<span>个人报表</span>&nbsp&nbsp/&nbsp&nbsp<span>Doc 1</span>
 			</div>
 
-			<div id="query-form">
-				<div id="query-option">
+			<div id="query-form" class="ClearFix">
+				<div id="query-option" class="dropdown-list">
 					<span>查询项</span>
+					<div class="list-hint" tabindex="0">第一项</div>			
 					<ul>
 						<li>第一项</li>
 						<li>第一项</li>
@@ -59,46 +60,67 @@
 					</ul>
 				</div>			
 				<div id="query-person">
-					<span>买方</span>
-					<ul>
-						<li>A</li>
-						<li>B</li>
-						<li>C</li>
-					</ul>
-					<span>卖方</span>
-					<ul>
-						<li>C</li>
-						<li>B</li>
-						<li>A</li>
-					</ul>
+					<div id="query-buyer" class="dropdown-list">
+							<span>买方</span>
+							<div class="list-hint" tabindex="0">A</div>
+							<ul>
+								<li>A</li>
+								<li>B</li>
+								<li>C</li>
+							</ul>
+					</div>
+					<div id="query-seller" class="dropdown-list">
+							<span>卖方</span>
+							<div class="list-hint" tabindex="0">C</div>
+							<ul>
+								<li>C</li>
+								<li>B</li>
+								<li>A</li>
+							</ul>
+					</div>
 				</div>
-				<div id="query-info">
-					<span>日期</span>
-					<ul>
-						<li>2016-04-01</li>
-						<li>2016-04-01</li>
-						<li>2016-04-01</li>
-					</ul>
-					<span>总耗时</span>
-					<ul>
-						<li>8天</li>
-						<li>8天</li>
-						<li>8天</li>
-					</ul>
-					<span>人数</span>
-					<ul>
-						<li>10人</li>
-						<li>10人</li>
-						<li>10人</li>
-					</ul>
-					<span>成交项</span>
-					<ul>
-						<li>10项</li>
-						<li>10项</li>
-						<li>10项</li>
-					</ul>
-					<button>Search</button>
+				
+				<div id="query-date" class="dropdown-list">
+						<span>日期</span>
+						<div class="list-hint" tabindex="0">2016-04-01</div>
+						<ul>
+							<li>2016-04-01</li>
+							<li>2016-04-01</li>
+							<li>2016-04-01</li>
+						</ul>
 				</div>
+	
+				<div id="query-costtime"class="dropdown-list">
+						<span>总耗时</span>
+						<div class="list-hint" tabindex="0">8</div>
+						<ul>
+							<li>8天</li>
+							<li>8天</li>
+							<li>8天</li>
+						</ul>
+				</div>
+
+				<div id="query-population"class="dropdown-list">
+						<span>人数</span>
+						<div class="list-hint" tabindex="0">10人</div>
+						<ul>
+							<li>10人</li>
+							<li>10人</li>
+							<li>10人</li>
+						</ul>
+				</div>
+
+				<div id="query-exchange-items"class="dropdown-list">
+						<span>成交项</span>
+						<div class="list-hint" tabindex="0">10项</div>
+						<ul>
+							<li>10项</li>
+							<li>10项</li>
+							<li>10项</li>
+						</ul>
+				</div>
+
+				<button>Search</button>	
 			</div>
 
 			<div id="price-fluctuation">
