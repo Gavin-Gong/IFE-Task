@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task-10</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.container div {
+		width: 150px;
+		border: 2px solid #f00;
+		padding: 20px;
+	}
+
+	.one {
+		height: 120px;
+	}
+
+	.two {
+		height: 100px;
+	}
+
+	.three {
+		height: 40px;
+	}
+
+	.blue-box {
+		border: 2px solid #0f0!important;
+		height: 200px;
+	}
+
+	@media all and (max-width: 640px) {
+		.container {
+			align-items:  flex-start;
+			align-content: space-between;
+		}
+		.blue-box {
+			order: -1;
+		}
+	}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="one"></div>
+		<div class="two"></div>
+		<div class="three"></div>
+		<div class="blue-box"></div>
+	</div>
+</body>
+</html>
