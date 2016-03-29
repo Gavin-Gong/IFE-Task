@@ -729,7 +729,6 @@ a {
 
 .search-value-bar {
     display: inline-block;
-    /*margin-left: 5px;*/
     position: relative;
     right: 5px;
     width: 250px;
