@@ -1,7 +1,7 @@
 /*global styles*/
 body {
 	width: 100%;
-	font-family: "华文细黑", san-serif;
+	font-family: "STXihei",san-serif;
 }
 
 
@@ -34,7 +34,7 @@ a {
 .ClearFix:after {
 	content: "";
 	display: block;
-	visibility: none;
+	visibility: hidden;
 	clear: both;
 
 }
@@ -43,7 +43,6 @@ a {
 .dropdown-list {
   width: 200px;
   /*float: left;*/
-
 }
 
 .dropdown-list span {
@@ -170,7 +169,7 @@ a {
 	display: inline-block;
 	box-sizing: border-box;
 	width: 20%;
-	height: 1000px;
+	height: 1800px;
 	background-color: #2B2E3D;
 }
 
@@ -492,14 +491,16 @@ a {
 }
 
 .box-head {
-	width: 100%;
+	/*width: 100%;*/
 	padding: 5px 20px;
 	background-color: #eee;
 	color: #999;
-	border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 #project-table {
+    display: inline-block;
 	width: 60%;
 	background: #fff;
 	/*padding: 20px;*/
@@ -507,7 +508,7 @@ a {
 	border-radius: 8px;
 }
 #table-body {
-	padding: 10px 20px;
+	padding: 10px 20px 50px 20px;
 	color: #333;
 }
 #table-body>ul {
@@ -544,3 +545,205 @@ a {
 	width: 87px;
 	font-size: 15px;
 }
+
+#project-descrption {
+    float: right;
+    width: 36%;
+    border: 1px solid #999;
+    border-radius: 8px;
+    /*height: 80px;*/
+}
+
+#descrption-body {
+    padding: 10px 40px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #fff;
+}
+
+#descrption-body p {
+    color: #333;
+    font-size: 14px;
+}
+#descrption-body ul {
+    overflow: hidden;
+}
+#descrption-body li {
+    float: left;
+    width: 100%;
+    /*margin-bottom: 15px;*/
+    padding: 5px 10px;
+}
+
+#descrption-body li:nth-child(2) {
+    width: 40%;
+    border-right: 1px solid #ccc;
+}
+#descrption-body li:nth-child(3) {
+    width: 40%
+}
+#descrption-body li:first-child {
+    border-bottom: 1px solid #ccc;
+}
+#descrption-body li:last-child {
+    padding-bottom: 80px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+#descrption-body h5 {
+    margin: 0;
+    font-weight: lighter;
+}
+
+#descrption-body>div {
+    padding-top: 12px;
+    padding-bottom: 17px;
+}
+
+#descrption-body span {
+    font-size: 13px;
+}
+#descrption-body span:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background: #ccc;
+}
+
+#descrption-body span:focus {
+    outline: none;
+    border: none;
+}
+
+#descrption-body span:focus:before {
+    background: #ccc url(../images/task_09_checkout.png) center center no-repeat;
+    outline: none;
+    border: none;
+}
+#descrption-body button {
+    float: right;
+    padding: 5px 10px;
+    margin-top: 3px;
+    color: #ddd;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #398AC1;
+}
+/*End Project*/
+
+#add-ons {
+    width: 85%;
+    margin: 20px auto;
+    font-size: 14px;
+
+}
+
+#add-ons-cal {
+    float: left;
+    /*padding: 20px;*/
+    width: 42%;
+    border: 1px solid #999;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.cal-body {
+    padding-left: 20px;
+    color: #333;
+}
+
+.cal-option {
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+.cal-option li:nth-child(1){
+    width: 62px;
+}
+.cal-option li:nth-child(2){
+    width: 58px;
+    margin-left: 8px
+}
+.cal-option li:nth-child(3){
+    width: 67px;
+    margin-left: 8px;
+}
+.cal-option li:nth-child(4){
+    width: 56px;
+    margin-left: 8px
+}
+
+.cal-option>li {
+    float: left;
+    padding: 1px 5px;
+
+    border: 1px solid #999;
+}
+.cal-weekday {
+    overflow: hidden;
+    text-align: center;
+    padding: 8px 0;
+    border-top: 1px solid #2aabd2;
+    border-bottom: 1px solid #999;
+}
+.cal-weekday>li {
+    float: left;
+    width: 47px;
+}
+
+.cal-month h4 {
+    margin: 0;
+    text-align: center;
+}
+
+.cal-month td,
+.cal-month th {
+    padding: 9px;
+}
+
+
+#ranking-list {
+    float: left;
+    width: 54%;
+    margin-left: 3%;
+    color: #333;
+    border: 1px solid #999;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.ranking-table {
+    border-collapse: collapse;
+}
+
+.ranking-table th,
+.ranking-table td {
+    border: 1px solid #999;
+    padding: 3px 17px;
+    text-align: center;
+}
+
+.search-value-bar {
+    display: inline-block;
+    /*margin-left: 5px;*/
+    position: relative;
+    right: 5px;
+    width: 250px;
+    height: 6px;
+    background-color: #888;
+}
+
+.search-value-bar:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height:6px;
+    background-color: #31b0d5;
+}
+
+
+
