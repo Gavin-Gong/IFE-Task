@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e9f8cc3-bba3-4c87-93e4-b0c04f6d2088" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/task_12_3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_12_3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_12_1.html" afterPath="$PROJECT_DIR$/task_12_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_12_2.html" afterPath="$PROJECT_DIR$/task_12_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/task_12_3.css" afterPath="$PROJECT_DIR$/styles/task_12_3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_12_3.html" afterPath="$PROJECT_DIR$/task_12_3.html" />
     </list>
     <ignored path="IFE-Task.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +41,8 @@
           <file leaf-file-name="task_12_3.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/task_12_3.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.21875">
-                  <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.6197917">
+                  <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -68,8 +65,8 @@
           <file leaf-file-name="task_12_3.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/task_12_3.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5841584">
-                  <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.519802">
+                  <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -268,7 +265,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -408,16 +405,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task_12_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21875">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.6197917">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/task_12_3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5841584">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.519802">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding />
         </state>
       </provider>
