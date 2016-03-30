@@ -695,9 +695,12 @@ a {
     width: 47px;
 }
 
+.cal-month {
+	text-align: center;
+}
+
 .cal-month h4 {
     margin: 0;
-    text-align: center;
 }
 
 .cal-month td,
@@ -723,26 +726,73 @@ a {
 .ranking-table th,
 .ranking-table td {
     border: 1px solid #999;
-    padding: 3px 17px;
+    padding: 2px 10px;
     text-align: center;
+}
+
+.ranking-table td:last-child {
+	padding-right: 35px;
 }
 
 .search-value-bar {
     display: inline-block;
     position: relative;
-    right: 5px;
+    right: -16px;
     width: 250px;
     height: 6px;
-    background-color: #888;
+    background-color: #999;
 }
 
-.search-value-bar:after {
-    content: "";
-    display: block;
-    width: 100px;
-    height:6px;
-    background-color: #31b0d5;
+/*.search-value-bar:after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*width: 100px;*/
+    /*height:6px;*/
+    /*background-color: #31b0d5;*/
+/*}*/
+.search-value-bar span {
+    display: inline-block;
+    float: left;
+    height: 6px;
+    background: #2aabd2;
 }
+.bar-width-1 {
+	width: 25px;
+}
+.bar-width-2 {
+	width: 50px;
+}
+.bar-width-3 {
+	width: 75px;
+}
+.bar-width-4 {
+	width: 100px;
+}
+.bar-width-5 {
+	width: 125px;
+	background-color: #F09C4D!important;
+}
+.bar-width-6 {
+	width: 150px;
+	background-color: #F09C4D!important;
+}
+.bar-width-7 {
+	width: 175px;
+	background-color: #F09C4D!important;
+}
+.bar-width-8 {
+	width: 200px;
+	background-color: #F09C4D!important;
+}
+.bar-width-9 {
+	width: 225px;
+	background-color: #ED6D52!important;
+}
+.bar-width-10 {
+	width: 250px;
+	background-color: #ED6D52!important;
+}
+
 
 
 
