@@ -12,7 +12,14 @@ a {
 .slider {
     position: relative;
     overflow: hidden;
-    margin: 100px auto;
+    margin: 0 auto;
+    width: 680px;
+    height: 320px;
+}
+.box {
+    position: relative;
+    overflow: hidden;
+    /*margin: 100px auto;*/
     width: 680px;
     height: 320px;
 }
@@ -37,10 +44,10 @@ a {
     height: 320px;
     background: url(../images/task_12_img_1.jpg) center center no-repeat;
 }
-/*.imglist li:first-child:target {*/
-    /*/!*left: -680px;*!/*/
-    /*margin-left: 680px;*/
-/*}*/
+.imglist li:first-child:target {
+    /*left: -680px;*/
+    margin-left: 680px;
+}
 
 .imglist li:nth-child(2) {
     background: url(../images/task_12_img_2.jpg);
