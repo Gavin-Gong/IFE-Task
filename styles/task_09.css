@@ -108,6 +108,8 @@ a {
 
 
 #content {
+    margin: 0 auto;
+    overflow: hidden;
 	color: #999;
 	background-color: #eee;
 }
@@ -116,6 +118,7 @@ a {
 	display: inline-block;
 	box-sizing: border-box;
 	width: 20%;
+    max-width: 270px;
 	height: 1800px;
 	background-color: #2B2E3D;
 }
@@ -244,6 +247,7 @@ a {
 
 #file-path {
 	width: 100%;
+    min-width: 917px;
 	padding: 10px 0;
 	background-color: #fff;
 }
@@ -260,6 +264,7 @@ a {
 	margin: 20px auto;
 	padding: 10px 20px;
 	width: 85%;
+    max-width: 917px;
 	background-color: #fff;
 }
 
@@ -371,6 +376,7 @@ a {
 	margin: 20px auto;
 	/*padding: 10px 20px;*/
 	width: 85%;
+    max-width: 917px;
 	/*background-color: #fff;*/
 }
 
@@ -442,6 +448,7 @@ a {
 
 #exchange-total {
 	width: 85%;
+    max-width: 917px;
 	margin: 20px auto;
 }
 
@@ -522,6 +529,7 @@ a {
 
 #project {
 	width: 85%;
+    max-width: 917px;
 	margin: 0 auto;
 }
 
@@ -581,6 +589,9 @@ a {
 	font-size: 15px;
 }
 
+#project {
+    max-width: 917px;
+}
 #project-descrption {
     float: right;
     width: 36%;
@@ -672,6 +683,7 @@ a {
 
 #add-ons {
     width: 85%;
+    max-width: 917px;
     margin: 20px auto;
     font-size: 14px;
 
