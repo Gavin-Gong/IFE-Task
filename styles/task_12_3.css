@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+.slider {
+    overflow: hidden;
+    margin: 100px auto;
+    width: 680px;
+    height: 320px;
+}
+.imglist {
+
+}
+.imglist li {
+    float: left;
+}
+.imglist li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+.imglist li {
+    width: 680px;
+    height: 320px;
+    background: url(../images/task_12_img_1.jpg) center center no-repeat;
+}
