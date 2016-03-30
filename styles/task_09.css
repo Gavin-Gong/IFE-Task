@@ -39,60 +39,7 @@ a {
 
 }
 
-/*Dropdown List Class*/
-.dropdown-list {
-  width: 200px;
-  /*float: left;*/
-}
 
-.dropdown-list span {
-	display: block;
-	/*float: left;*/
-}
-
-.list-hint {
-  /*display: inline-block;*/
-  /*float: left;*/
-  width: 200px;
-  padding-left: 8px;
-  border: 1px solid #999;
-  color: #000;
-  cursor: pointer;
-}
-
-.list-hint:after {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: #f43366;
-  float: right;
-  margin: 5px 10px;
-  vertical-align: middle;
-}
-
-.list-hint:focus {
-  outline:none;
-}
-.list-hint:focus+ul {
-  display:block;
-  background: #ddd;
-}
-
-.dropdown-list ul {
-  list-style: none;
-  width: 200px;
-  display: none;
-  color: #000;
-}
-
-.dropdown-list li {
-  padding-left: 20px;
-}
-
-.dropdown-list li:hover {
-  background: #f43366;
-}
 /*End Dropdown List Class*/
 
 
@@ -316,17 +263,105 @@ a {
 	background-color: #fff;
 }
 
-#query-option {
-	height: 80px;
-	width: 80px;
-}
-#query-option .list-hint {
-	width: 80px;
-}
+
 
 #query-person  {
 	float: left;
 	width: 200px;
+}
+/*Dropdown List Class*/
+.dropdown-list {
+    /*width: 200px;*/
+    float: left;
+}
+
+.dropdown-list span {
+    display: block;
+    float: left;
+}
+
+.list-hint {
+    /*display: inline-block;*/
+    /*float: left;*/
+    width: 150px;
+    padding-left: 8px;
+    margin-left: 57px;
+    border: 1px solid #999;
+    color: #000;
+    cursor: pointer;
+}
+
+.list-hint:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/task_09_searchbar_arrow.png) 0 4px;
+    float: right;
+    margin: 5px 10px;
+    vertical-align: middle;
+}
+
+#query-option {
+    height: 60px;
+    width: 80px;
+    /*margin-left: 50px;*/
+}
+#query-option .list-hint {
+    width: 80px;
+}
+#query-person {
+    margin-left: 93px;
+}
+#query-buyer>div {
+    margin-left: 42px;
+}
+#query-seller {
+    margin-top: 10px;
+}
+#query-seller>div {
+    margin-left: 42px;
+}
+#query-date {
+    margin-left: 23px;
+}
+#query-date>div {
+    margin-left: 40px;
+}
+#query-costtime {
+    margin-left: 18px;
+    width: 200px;
+    overflow: hidden;
+}
+#query-costtime>div {
+    width: 60px;
+}
+#query-population {
+    margin-top: 10px;
+    margin-left: 23px;
+    width: 100px;
+}
+#query-population>div {
+    margin-left: 40px;
+    width: 65px;
+}
+#query-exchange-items {
+    margin-top: 10px;
+    margin-left: 32px;
+}
+#query-exchange-items>div {
+    margin-left: 53px;
+}
+#query-form button {
+    margin-right: 20px;
+    margin-top: -10px;
+    float: right;
+    color: #eee;
+    background-color: #31b0d5;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
 }
 
 
@@ -655,22 +690,41 @@ a {
     padding-left: 20px;
     color: #333;
 }
-
 .cal-option {
     overflow: hidden;
     margin: 10px auto;
 }
-
-.cal-option li:nth-child(1){
-    width: 62px;
+.weekend {
+    color: #f00;
 }
+.festival {
+    color: #f00;
+}
+.chosed {
+    border: 1px solid #ff9800;
+}
+
+.cal-option li:nth-child(1) {
+    width: 62px;
+    background: url(../images/task_12_cal_arrow_down.png) 57px center no-repeat;
+}
+/*.cal-option li:nth-child(1):after {*/
+    /*content: "";*/
+    /*display: inline-block;*/
+    /*width: 10px;*/
+    /*height: 100%;*/
+    /*border: 1px solid #000;*/
+/*}*/
 .cal-option li:nth-child(2){
     width: 58px;
-    margin-left: 8px
+    margin-left: 8px;
+    text-align: center;
+    background: url(../images/task_12_cal_arrow_down.png) 53px center no-repeat;
 }
 .cal-option li:nth-child(3){
     width: 67px;
     margin-left: 8px;
+    background: url(../images/task_12_cal_arrow_down.png) 66px center no-repeat;
 }
 .cal-option li:nth-child(4){
     width: 56px;
@@ -680,7 +734,6 @@ a {
 .cal-option>li {
     float: left;
     padding: 1px 5px;
-
     border: 1px solid #999;
 }
 .cal-weekday {
@@ -721,6 +774,11 @@ a {
 
 .ranking-table {
     border-collapse: collapse;
+    /*padding: 5px;*/
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 14px;
+    margin-bottom: 121px;;
 }
 
 .ranking-table th,
@@ -792,6 +850,10 @@ a {
 	width: 250px;
 	background-color: #ED6D52!important;
 }
+
+
+
+
 
 
 

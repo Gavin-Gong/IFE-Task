@@ -4,8 +4,6 @@
     <list default="true" id="7e9f8cc3-bba3-4c87-93e4-b0c04f6d2088" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/task_09.css" afterPath="$PROJECT_DIR$/styles/task_09.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_09.html" afterPath="$PROJECT_DIR$/task_09.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/task_12_3.css" afterPath="$PROJECT_DIR$/styles/task_12_3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_12_3.html" afterPath="$PROJECT_DIR$/task_12_3.html" />
     </list>
     <ignored path="IFE-Task.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,15 +23,17 @@
     <favorites_list name="IFE-Task" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.61573374">
+    <splitter split-orientation="horizontal" split-proportion="0.5219365">
       <split-first>
         <leaf>
           <file leaf-file-name="task_09.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/task_09.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48958334">
-                  <caret line="517" column="29" selection-start-line="517" selection-start-column="29" selection-end-line="517" selection-end-column="29" />
+                <state vertical-scroll-proportion="0.6388889">
+                  <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
                   <folding>
+                    <element signature="n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
@@ -47,8 +47,8 @@
           <file leaf-file-name="task_09.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/task_09.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.0346534">
-                  <caret line="793" column="1" selection-start-line="793" selection-start-column="1" selection-end-line="793" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.44554454">
+                  <caret line="352" column="19" selection-start-line="352" selection-start-column="19" selection-end-line="352" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -152,6 +152,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IFE-Task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IFE-Task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -166,6 +180,7 @@
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="key&#9;ACTION&#9;ChangeKeymap" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.task_09.html">
     <configuration default="false" name="task_09.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/IFE-Task/task_09.html">
@@ -247,11 +262,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2881997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -291,6 +306,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="438" column="47" selection-start-line="438" selection-start-column="47" selection-end-line="438" selection-end-column="47" />
           <folding>
+            <element signature="n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -385,9 +402,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task_09.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48958334">
-          <caret line="517" column="29" selection-start-line="517" selection-start-column="29" selection-end-line="517" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.6388889">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
           <folding>
+            <element signature="n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -395,8 +414,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/task_09.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0346534">
-          <caret line="793" column="1" selection-start-line="793" selection-start-column="1" selection-end-line="793" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.44554454">
+          <caret line="352" column="19" selection-start-line="352" selection-start-column="19" selection-end-line="352" selection-end-column="19" />
           <folding />
         </state>
       </provider>
