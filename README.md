@@ -9,10 +9,10 @@
 - [X] [Task-06](httlp//:)
 - [X] [Task-07](httlp//:)
 - [X] [Task-08](httlp//:)
-- [ ] [Task-09](httlp//:)
-- [X] [Task-10](httlp//:)
-- [ ] [Task-11](httlp//:)
-- [ ] [Task-12](httlp//:)
+- [X] [Task-09](httlp//:)
+- [ ] [Task-10](httlp//:)
+- [X] [Task-11](httlp//:)
+- [X] [Task-12](httlp//:)
 
 
 
