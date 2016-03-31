@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e9f8cc3-bba3-4c87-93e4-b0c04f6d2088" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_11_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_11_2.html" />
-      <change type="DELETED" beforePath="C:\Users\Kefen Gong\Documents\nginx-1.8.1\html\IFE-Task\images\task_10_banner.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kefen Gong\Documents\nginx-1.8.1\html\IFE-Task\images\task_10_col_1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kefen Gong\Documents\nginx-1.8.1\html\IFE-Task\images\task_10_col_2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kefen Gong\Documents\nginx-1.8.1\html\IFE-Task\images\task_10_col_3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kefen Gong\Documents\nginx-1.8.1\html\IFE-Task\images\task_10_img_text.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kefen Gong\Documents\nginx-1.8.1\html\IFE-Task\images\task_10_mod.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kefen Gong\Documents\nginx-1.8.1\html\IFE-Task\images\task_10_tag.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_11_1.html" afterPath="$PROJECT_DIR$/task_11_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IFE-Task.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,36 +23,20 @@
     <favorites_list name="IFE-Task" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5219365">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="task_11_1.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/task_11_1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3275563">
-                  <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="task_11_1.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/styles/task_11_1.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="task_11_1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task_11_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.74119717">
+              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+              <folding>
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,6 +61,7 @@
         <option value="$PROJECT_DIR$/task_09.html" />
         <option value="$PROJECT_DIR$/task_11.html" />
         <option value="$PROJECT_DIR$/task_11_2.html" />
+        <option value="$PROJECT_DIR$/task_11_1.html" />
       </list>
     </option>
   </component>
@@ -95,10 +73,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -253,8 +230,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22390318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -468,9 +445,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task_11_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3275563">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
+        <state vertical-scroll-proportion="0.74119717">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
