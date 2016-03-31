@@ -28,6 +28,7 @@ a {
     z-index: -1;
     overflow: hidden;
     width: 2040px;
+    animation: slider-ani ease-in-out 8s  infinite ;
 }
 .imglist li {
     float: left;
@@ -43,10 +44,6 @@ a {
     width: 680px;
     height: 320px;
     background: url(../images/task_12_img_1.jpg) center center no-repeat;
-}
-.imglist li:first-child:target {
-    /*left: -680px;*/
-    margin-left: 680px;
 }
 
 .imglist li:nth-child(2) {
@@ -84,30 +81,11 @@ a {
     line-height: 40px;
     background: transparent;
 }
-/*.button {*/
-    /*float: left;*/
-    /*width: 40px;*/
-    /*height: 40px;*/
-    /*margin-left: 35px;*/
-    /*margin-top: 260px;*/
-    /*text-align: center;*/
-    /*border-radius: 50%;*/
-    /*background-color: #455a64;*/
-/*}*/
 
-/*#first-btn {*/
-    /*margin-left: 240px;*/
-/*}*/
-
-/*#first-btn:hover:first-child {*/
-    /*margin-left: 100px;*/
-/*}*/
-/*.button a {*/
-    /*display: inline-block;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*text-decoration: none;*/
-    /*color: #ddd;*/
-    /*line-height: 40px;*/
-/*}*/
-
+@keyframes slider-ani {
+    0% {tranform: translate(0)}
+    33% {transform: translate(-680px);}
+    66% {transform: translate(-1360px);}
+    100% {tranform: translate(0);}
+    /*100% {transform: translate(-2040px);}*/
+}
